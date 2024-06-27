@@ -2,6 +2,7 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #333;
     /* overflow-x: hidden; */
     /* background-color: rgb(33, 37, 41); */
 }
@@ -9,7 +10,7 @@ body{
     position: fixed;
     width: 100%;
     top: 0;
-    background-color: #333;
+    background-color: #333 !important;
     color: #fff;
     transition: top 1s;
     z-index: 1000; 
@@ -46,8 +47,15 @@ body{
     transition: color 0.3s ease;
 }
 .navbar-nav .nav-item .nav-link:hover {
-    color: orange;
+    color: #fff;
+    font-weight: bold;
     /* border-bottom: 2px solid orange; */
+}
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: .9rem;
+        padding-left: .5rem;
+    }
 }
 .navbar-nav .nav-item .nav-link:after {
     content: '';
