@@ -1,6 +1,24 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    /* overflow-x: hidden; */
     /* background-color: rgb(33, 37, 41); */
+}
+.navbar {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: #333;
+    color: #fff;
+    transition: top 1s;
+    z-index: 1000; 
+}
+.navbar.hidden {
+    top: -70px;
+}
+.content {
+    padding-top: 70px;
 }
 .home_img{
     width: 90% !important;

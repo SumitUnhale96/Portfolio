@@ -15,4 +15,19 @@ document.addEventListener('DOMContentLoaded', (event) => {
             textElement.classList.remove('hide');
         }, 1000);
     }, 3000);
+
+    let lastScrollTop = 0;
+    const navbar = document.getElementById('navbar');
+
+    window.addEventListener('scroll', function() {
+        let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+        if (scrollTop > lastScrollTop) {
+            navbar.classList.add('hidden');
+        } else {
+            navbar.classList.remove('hidden');
+        }
+
+        lastScrollTop = scrollTop;
+    });
 });
