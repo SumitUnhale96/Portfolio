@@ -1,0 +1,62 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    /* background-color: rgb(33, 37, 41); */
+}
+.home_img{
+    width: 90% !important;
+    margin-top: -12%;
+}
+.subheading{
+    color: orange;
+    font-weight: bold;
+    font-size: 1rem;
+}
+.ownName{
+    color: orange;
+    font-weight: bolder;
+    font-size: 3rem;
+}
+.ownNameM{
+    font-size: 4rem;
+    font-weight: bold;
+}
+.navbar-nav .nav-item .nav-link {
+    position: relative;
+    color: #fff;
+    /* border-bottom: 2px solid transparent; */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+.navbar-nav .nav-item .nav-link:hover {
+    color: orange;
+    /* border-bottom: 2px solid orange; */
+}
+.navbar-nav .nav-item .nav-link:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 3px;
+    width: 0;
+    height: 2px;
+    background-color: orange;
+    transition: width 0.3s ease;
+}
+.navbar-nav .nav-item .nav-link:hover:after {
+    width: 100%;
+}
+.hbtn{
+    border-radius: 50px;
+    font-weight: bold;
+}
+.hbtn-h:hover{
+    background-color: #fff;
+    color: orange;
+    border: 1px solid orange;
+}
+.fade-text {
+    opacity: 1;
+    transition: opacity 1s ease-in-out;
+}
+.fade-text.hide {
+    opacity: 0;
+}
