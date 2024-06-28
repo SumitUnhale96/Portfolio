@@ -1,7 +1,8 @@
 document.addEventListener('DOMContentLoaded', (event) => {
     const textArray = [
         "A Frontend Developer",
-        "Computer Science Student"
+        "Computer Science Student",
+        "A Web Developer  "
     ];
     let currentIndex = 0;
     const textElement = document.getElementById('changingText');

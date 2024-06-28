@@ -2,7 +2,7 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #333;
+    background-color: black;
     /* overflow-x: hidden; */
     /* background-color: rgb(33, 37, 41); */
 }
@@ -10,7 +10,7 @@ body{
     position: fixed;
     width: 100%;
     top: 0;
-    background-color: #333 !important;
+    background-color: black !important;
     color: #fff;
     transition: top 1s;
     z-index: 1000; 
@@ -36,7 +36,8 @@ body{
     font-size: 3rem;
 }
 .ownNameM{
-    font-size: 4rem;
+    color: #fff !important;
+    font-size: 5rem;
     font-weight: bold;
 }
 .navbar-nav .nav-item .nav-link {
@@ -85,4 +86,59 @@ body{
 }
 .fade-text.hide {
     opacity: 0;
+}
+#changingText{
+    color: #fff;
+}
+.home_img{
+    /* box-shadow: 1px 1px 20px orange; */
+    filter: drop-shadow(1px 1px 15px #fff);
+    transition: transform 0.4s ease;
+    transform-origin: 48% 20%;
+}
+.home_img:hover{
+    transform: scale(1.05);
+}
+.heading-section h1.big {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    font-size: 7vw;
+    color: rgba(255, 255, 255, 0.1);
+    z-index: -1;
+    font-weight: 900;
+}
+.heading-section h2 {
+    font-size: 50px;
+    font-weight: 700;
+}
+.ftco-about ul.about-info li span:first-child {
+    font-weight: 600;
+    color: #fff;
+    width: 130px;
+}
+.ftco-about .counter-wrap .text p span.number {
+    font-weight: 600;
+    color: #ffbd39;
+}
+.ftco-about .counter-wrap .text p span {
+    font-weight: 400;
+    color: #fff;
+}
+.btn.btn-primary:hover {
+    border: 1px solid #ffbd39 !important;
+    background: #ffbd39 !important;
+    color: #000000 !important;
+}
+.mb-4{
+    color: orange;
+}
+.ftco-animate p{
+    color: #99999999;
+    margin-bottom: 2rem;
+    text-align: justify;
+}
+.ftco-animate li{
+    margin-bottom: 1rem;
+    color: #99999999;
 }
