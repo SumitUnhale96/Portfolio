@@ -142,3 +142,15 @@ body{
     margin-bottom: 1rem;
     color: #99999999;
 }
+.rounded-image {
+    border-radius: 50%;
+    width: 100%;
+    max-width: 125px;
+  }
+  .info-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  .info-list li {
+    margin-bottom: 10px;
+  }
