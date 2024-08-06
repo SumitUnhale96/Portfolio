@@ -12,6 +12,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
         
         setTimeout(() => {
             currentIndex = (currentIndex + 1) % textArray.length;
+            console.log(currentIndex);
             textElement.textContent = textArray[currentIndex];
             textElement.classList.remove('hide');
         }, 1000);

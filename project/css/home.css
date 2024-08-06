@@ -190,3 +190,8 @@ body{
   .skill span{
     color: #99999999;
   }
+  @media (max-width: 770px){
+    .home_img{
+        display: none;
+    }
+  }
